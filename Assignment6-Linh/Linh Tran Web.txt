@@ -1,0 +1,164 @@
+<!-- Linh Tran -->
+<!-- Sept. 17, 2013 -->
+<!-- CS 152.002 -->
+
+<html>
+<head>
+<title> Linh Tran Website </title>
+
+<style>
+
+.attribute{font-size:9px; margin-top: -10px; margin-left: 30px; color:#ffffff;         
+}
+.attributebackground{font-size:12px; margin-top: -10px; margin-left: 30px; color:#ffffff;         
+}
+#h1{font-family:  Batang ;
+    background:#fff9d8;
+    font-size: 44px;
+    width: 1050px;
+    margin: 100px;
+    
+}
+
+#h2{font-size:25px; 
+} 
+
+body{font-family:"Arial",Arial,Courier,Zapfino;
+         font-size:18px;
+         background-image: url('http://farm9.staticflickr.com/8391/8653765330_745ab4b4d1_k.jpg');
+         background-size: 1110px;      
+}
+
+.img{width:500px;
+        padding: 10px;
+        margin-top:20px;
+        margin-bottom:20px;
+        background-color: #FFFFFF;
+}
+
+#footer{background:#fff9d8;
+            width:1050px;
+            margin:100px;
+            font-size:12px;
+}
+
+#right-wrapper{margin-left: 500px;
+                        padding-left: 50px;
+                        width:600px;
+                        background: #fe4c4e;
+}
+
+#left-wrapper{width: 300px;
+   	      background: #fe4c4e;
+	      float: left;
+ 	      margin: 10px 10px 10px 300px;
+                        padding: 20px;
+	      font-size:20px;	      
+}
+
+</style>
+</head>
+
+<body>
+<div id="h1">
+<h1>Linh Tran</h1>
+</div>
+
+<div id="left-wrapper">
+<h2> <u>Links</u></h2>
+<li><a href="http://www.youtube.com/watch?v=u7JpRNEp4a0">Helen's Cooking Channel</a></li>
+</br><li><a href=" http://allrecipes.com/recipes/world-cuisine/asian/vietnamese/"> Vietnamese Recipes</a></li>
+</br><li><a href="http://www.cntraveller.com/guides/asia/vietnam">Vietnam Travel Guide</a></li>
+<br/>
+<li><a href="http://www.vietnamtourism.com/e_pages/tourist/travel.asp">Vietnam Must-go Places</a></li>
+</div>
+
+<p style="margin-right:30px"> I am a sophomore at the University of Mexico and is working to earn a bachelor's degree in Computer Science.
+My parents came from Vietnam. I am bilingual, speaking both English and Vietnamese. After I graduate, I hope to work for a prestigious software company.With the help of technology I am able to learn about my cultural backgroud. Therefore, I wish to learn programming to promote world peace.
+</p>
+
+<h1> <u>Cultural Background: Vietnam</u> </h1>
+
+<h2> <u>Map of Vietnam</u> </h2>
+
+<img class="img" src = 
+"http://www.mapsofworld.com/vietnam/maps/vietnam-map.gif" />
+<div class="attribute">&copy;www.mapsofworld.com</div>
+<p>  </p>
+<p style="margin-right:20px"> Vietnam is located in southeastern Asia, bordered by China, Laos, Cambodia, and Eastern Sea. My parents came from Ho Chi Minh City also known as Saigon. It is the largest city in Vietnam.</p>
+
+
+
+
+<h2> <u>My Favorite Foods</u> </h2>
+<ol>
+
+<b><li><u> White Rice (Com Trang) </u></li></b>
+<p style="margin-right: 5px"> I grew up eating this and cannot live without it. My family 
+and I eat it every day.</p>
+<img class="img" src="http://farm2.staticflickr.com/1437/4731242537_baa8814599_b.jpg"/>
+<div class="attribute">&copy;Hansik Korea, 2007</div>
+<p>  </p>
+
+<b><li><u> Vietnamese Beef Soup (Pho Bo) </u></li></b>
+<p style="margin-right:15px"> This is my guilty pleasure, whenever I go to a Vietnamese 
+resturant this my #1 choice.  In my opinion, my mom makes the best Pho. Out of every all foods I would suggest Pho Bo to anyone who haven't tried it yet. </p>
+<img class="img" src ="http://farm1.staticflickr.com/90/247045528_69c2f16dfa_o.jpg"/>
+<div class="attribute">&copy;Joshua Rappeneker, 2006</div>
+<p>  </p>
+
+<b><li><u> Egg Rolls (Chi Gio) </u></li></b> 
+<p style="margin-right:15px"> My fondest memories were making these with my sister and 
+mother. I would roll while my sister and mom stuff them with 
+delicious filling.
+</p> 
+<img class="img" src = 
+"http://thiseclecticlife.com/wp-content/uploads/2009/12/Vietnamese-egg-rolls.JPG" >
+<div class="attribute">&copy;Shelly Tucker, 2009</div>
+<p>  </p>
+
+<b><li><u> Avocado Milkshake (Sinh To Bo) </u></li></b>
+<p> My favorite type shake because of its vibrant color and 
+richness in taste. It tastes best during the summertime.</p>
+<img class="img" src = 
+"http://farm7.staticflickr.com/6048/6342860090_f87ec93868_b.jpg"/>
+<div class="attribute">&copy;Rfung8, 2011</div>
+<p>  </p>
+
+</ol>
+
+
+<h2> <u>My Favorite Places</u> </h2>
+<p style="margin-right:20px"> In 2004 my mom, sister, and I went to Saigon,Vietnam to visit our family. That was the first time I ever been there. The lively streets and the fact that there was street food in every street corner fascinated me. The most memorable moment was at Dam Sen Water Park. I remembered the thrill of riding the slides. In addition, the city was spectacular at night. Lights emitted from markets, streets, and resturants. Surprisingly, stores and markets were still open at 10 o'clock at night. Overall, Vietnam was a 
+nice experience and I wish to visit there again.  
+</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/jMDcvczfD3M" frameborder="0" allowfullscreen></iframe>
+<br/></br><div class="attribute">&copy;Angela Schonberg, 2011 </div>
+
+<img class="img" src =
+"http://4.bp.blogspot.com/-4skL-qFOzxM/UOGuiJueyUI/AAAAAAAADlo/qHZYeGCZTK0/s1600/Saigon-1.jpg"/>
+<div class="attribute">&copy;Ben Davis, 2013</div>
+
+<img class="img" src=
+"http://www.remotelands.com/blog/wp-content/uploads/2013/01/IMG_0162-Copy.jpg"/>
+<div class="attribute">&copy;Tim Russell, 2013</div><br/>
+</div>
+
+
+
+<div id=footer>
+</br>
+<p align="center"><b>Note:</b> Site was created as part of <a class="whiteLink" href="http://patrickgagekelley.com/" target="_blank";>UNM CS152</a>.</p>
+<p align="center"><b>Contact email:</b> LiTran11794@unm.edu</p>
+<p align="center"><b>Thanks for visiting</b></p>
+</br>
+</div>
+
+
+
+</body>
+
+<html>
+<!---Citation for background-->
+<div class="attributebackground">&copy;Monicky Samuhahn, 2013</div>

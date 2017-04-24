@@ -1,0 +1,102 @@
+void setup() {
+  System.out.println( "Let's make houses!" );
+  House house1 = new House();
+  House house2 = new House();
+  
+  Window w1 = new Window( 3, 2, 1 );
+  Window w2 = new Window( 4, 5, 6 );
+  Window w3 = new Window( 12, 13, 14 );
+  
+  house1.addWindow( w1 );
+  house1.addWindow( w2 );
+  house1.addWindow( w3 );
+  
+  
+  
+  System.out.println( "House1 has " + house1.getNumWindows() + 
+        " windows and House2 has " + house2.getNumWindows() + " windows." );
+        System.out.println( house1 );
+  house1.drawHouse();
+} // setup ends
+
+/////
+
+public class House {
+  // List of variables 
+  //String name;
+  
+  int numWindows;
+  Window [] windows;
+  
+  public House() {
+    windows = new Window[64];
+    numWindows = 0;
+  }
+
+  public void drawHouse() {
+    int houseStart = 30;
+    rect( houseStart, houseStart, 50, 50 );  
+    int counter = 0;
+    while( counter < numWindows ) {
+      Window temp = windows[counter];
+      rect( temp.getX()+houseStart, temp.getY()+houseStart, temp.getSize(), temp.getSize() ); 
+      counter++;
+    }
+  }
+  
+  public void addWindow( Window w ) {
+    if ( numWindows == 64 ) {
+      System.out.println( "Error: No more windows can be added." );
+    } else {
+      windows[ numWindows ] = w;
+      numWindows = numWindows + 1;
+    }
+  }
+  
+//  public void setNumWindows( int w ) {
+//    numWindows = w;
+//  }
+  public int getNumWindows() {
+    return numWindows;
+  } 
+  
+} // end of class house
+
+
+
+//
+
+public class Window {
+  int x;
+  int y;
+  int size;
+  
+  // Makes a new window of size tempSize
+  public Window( int tempSize ) {
+    size = tempSize;
+  }
+
+  public Window( int tempSize, boolean b ) {
+    size = tempSize;
+    if( b ) {
+      System.out.println( "What a nice window" );
+    }
+  }
+
+  // Makes a new window of size tempSize
+  public Window( int tempSize, int tempX, int tempY ) {
+    size = tempSize;
+    x = tempX;
+    y = tempY;
+  }
+  
+  public int getX() {
+    return x;
+  }
+  public int getY() {
+    return y;
+  }
+  public int getSize() {
+    return size;
+  }
+}
